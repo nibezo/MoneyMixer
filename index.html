@@ -5,10 +5,55 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>MoneyMixer</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="style.scss" />
 		<link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
 	</head>
 	<body>
+		<div class="site-description">
+			<h1 class="site-description__title">MoneyMixer</h1>
+			<p class="site-description__text">
+				In this converter, you can select any of the presented text areas and
+				enter the required amount.
+			</p>
+			<p class="site-description__text">
+				The conversion will occur in all text areas at the same time.
+			</p>
+			<p class="site-description__text">
+				You can copy the conversion result to the clipboard!
+			</p>
+		</div>
+		<div class="currency-converter">
+			<div class="currency-converter__input-field">
+				<div class="currency-converter__input-field__name-block">
+					<p class="currency-converter__input-field__name">AMD</p>
+				</div>
+				<input type="number" class="currency-converter__input-field__input" />
+			</div>
+			<div class="currency-converter__input-field">
+				<div class="currency-converter__input-field__name-block">
+					<p class="currency-converter__input-field__name">USD</p>
+				</div>
+				<input type="number" class="currency-converter__input-field__input" />
+			</div>
+			<div class="currency-converter__input-field">
+				<div class="currency-converter__input-field__name-block">
+					<p class="currency-converter__input-field__name">RUB</p>
+				</div>
+				<input type="number" class="currency-converter__input-field__input" />
+			</div>
+			<div class="currency-converter__input-field">
+				<div class="currency-converter__input-field__name-block">
+					<p class="currency-converter__input-field__name">USDT</p>
+				</div>
+				<input type="number" class="currency-converter__input-field__input" />
+			</div>
+			<div class="currency-converter__copy-result--non-hover">
+				<button class="currency-converter__copy-result__button">
+					Copy result
+				</button>
+				<img src="" alt="" class="currency-converter__copy-result-img" />
+			</div>
+		</div>
 		<script src="/assets/app.js"></script>
 	</body>
 </html>
