@@ -1,0 +1,18 @@
+.currency {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid $blue;
+	border-radius: 50px;
+	&__name {
+		color: $simple-white;
+		background-color: $simple-lightblue;
+		font-size: 60px;
+		border-radius: 50px;
+		height: 100%;
+	}
+
+	&__value {
+		color: $darkgrey;
+		font-size: 20px;
+	}
+}

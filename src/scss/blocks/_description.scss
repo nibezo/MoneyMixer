@@ -1,0 +1,13 @@
+.description {
+	color: $blue;
+	&__title {
+		font-size: 90px;
+		font-family: "Work Sans";
+	}
+
+	&__text {
+		font-size: 25px;
+		font-family: "Inter Tight";
+		font-weight: 600;
+	}
+}

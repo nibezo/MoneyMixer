@@ -5,8 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>MoneyMixer</title>
-		<link rel="stylesheet" href="style.scss" />
-		<link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+		<link rel="icon" href="./src/icons/favicon/favicon.ico" type="image/x-icon" />
 	</head>
 	<body>
 		<div class="description">
@@ -15,26 +14,27 @@
 			<p class="description__text">The conversion will occur in all text areas at the same time.</p>
 			<p class="description__text">You can copy the conversion result to the clipboard</p>
 		</div>
-		<div class="currency">
-			<p class="currency__name">AMD</p>
-			<input class="currency__value"></input>
+		<div class="converter">
+			<div class="currency">
+				<p class="currency__name">AMD</p>
+				<input class="currency__value"></input>
+			</div>
+			<div class="currency">
+				<p class="currency__name">USD</p>
+				<input class="currency__value"></input>
+			</div>
+			<div class="currency">
+				<p class="currency__name">RUB</p>
+				<input class="currency__value currency_selected"></input>
+			</div>
+			<div class="currency">
+				<p class="currency__name">USDT</p>
+				<input class="currency__value"></input>
+			</div>
+			<div class="button">
+				<p class="button__text">Copy result</p>
+				<img src="./src/icons/copy.svg" alt="" class="button_icon" />
+			</div>
 		</div>
-		<div class="currency">
-			<p class="currency__name">USD</p>
-			<input class="currency__value"></input>
-		</div>
-		<div class="currency">
-			<p class="currency__name">RUB</p>
-			<input class="currency__value currency_selected"></input>
-		</div>
-		<div class="currency">
-			<p class="currency__name">USDT</p>
-			<input class="currency__value"></input>
-		</div>
-		<div class="button">
-			<p class="button_text">Copy result</p>
-			<img src="./src/icons/copy.svg" alt="" class="button_icon" />
-		</div>
-		<script src="/assets/app.js"></script>
 	</body>
 </html>

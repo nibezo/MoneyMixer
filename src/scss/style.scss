@@ -3,7 +3,17 @@
 @import "./base/media";
 @import "./modules/normalize.scss";
 
-@import "./blocks/button";
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+@import "./blocks/description";
 @import "./blocks/converter";
 @import "./blocks/currency";
-@import "./blocks/description";
+@import "./blocks/button";
